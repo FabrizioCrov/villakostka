@@ -1,0 +1,101 @@
+.cabecera {
+  padding: 60px;
+  text-align: center;
+  background-image: url(../../images/chosica.jpg);
+  color: white;
+  font-size: 30px;
+}
+.texthead{
+
+border-radius: 25px;
+background:rgba(0, 0, 0, 0.74);
+
+}
+
+.texthead:hover{
+background:transparent;
+color:black !important;
+}
+
+.buthead{
+background-color: rgba(0, 0, 0, 0.74);
+}
+.buthead:hover{
+color:black !important; 
+}
+
+.ir-arriba{
+  display:none;
+  background-repeat:no-repeat;
+  font-size:20px;
+  color:black;
+  cursor:pointer;
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  z-index:999;
+}
+
+.bgverde1{
+background: rgb(17,45,18);
+background: radial-gradient(circle, rgba(17,45,18,1) 78%, rgba(5,24,6,1) 100%);
+}
+.bgverde2{
+background: rgb(24,61,25);
+background: radial-gradient(circle, rgba(24,61,25,1) 82%, rgba(0,0,0,0.9514180672268907) 100%);
+}
+.imgres {
+  width: 100%;
+  height: auto;
+}
+.vidres{
+height:250px;
+width: 100%;
+}
+
+
+.thumbnail {
+  max-width: 40%;
+}
+.lightbox {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: rgba(24, 61, 25, 0.75);
+}
+
+.progress-bar {
+  height: 8px;
+  background: #29692a;
+  width: 0%;
+}
